@@ -2,3 +2,28 @@
     display: none;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(213, 255, 254);
+    color: #ee2a7b;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+
+.icon-container {
+    display: block;
+    margin: 10px 0px;
+    padding: 0px 40px;
+}
+
+#text-chunk {
+    margin: 5px 30px;
+    padding: 20px 40px;
+    background-color: #f7bad4;
+    border-radius: 50px;
+    border: #ee2a7b solid 3px;
+    
+}
