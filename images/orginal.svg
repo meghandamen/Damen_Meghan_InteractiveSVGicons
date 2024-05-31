@@ -39,6 +39,10 @@
       .cls-7 {
         fill: #ee2a7b;
       }
+
+      <!-- =========  custom css ========= -->
+
+      
     </style>
     <linearGradient id="linear-gradient" x1="142.55" y1="332.1" x2="144.27" y2="-10.18" gradientUnits="userSpaceOnUse">
       <stop offset=".29" stop-color="#ee2c7b"/>

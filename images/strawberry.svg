@@ -36,6 +36,10 @@
       .cls-6 {
         fill: #fff;
       }
+
+      <!-- =========  custom css ========= -->
+
+      
     </style>
     <linearGradient id="linear-gradient" x1="144.79" y1="76.78" x2="144.19" y2="333.13" gradientUnits="userSpaceOnUse">
       <stop offset=".32" stop-color="#aed138"/>
