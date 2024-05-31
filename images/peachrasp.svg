@@ -13,6 +13,10 @@
       .cls-2 {
         fill: #000;
       }
+
+      <!-- =========  custom css ========= -->
+
+      
     </style>
     <linearGradient id="linear-gradient" x1="285.74" y1="-187.52" x2="289.64" y2="366.99" gradientUnits="userSpaceOnUse">
       <stop offset=".3" stop-color="#ee2c7b"/>
