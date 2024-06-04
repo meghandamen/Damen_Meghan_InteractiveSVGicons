@@ -36,6 +36,15 @@
       }
       
     </style>
+    <script>
+      const theIcon = document.querySelector("#logo-icon");
+
+      function logTheId() {
+        console.log(this.id);
+      }
+
+      theIcon.addEventListner("click", logTheId);
+    </script>
   </defs>
   <g id="logo-icon">
     <g id="black_outline" data-name="black outline">

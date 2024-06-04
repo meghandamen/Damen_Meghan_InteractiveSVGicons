@@ -66,6 +66,16 @@
       }
       
     </style>
+    <script>
+      const theIcon = document.querySelector("#sk-icon");
+
+      function logTheId() {
+        console.log(this.id);
+      }
+
+      theIcon.addEventListner("click", logTheId);
+    </script>
+
     <linearGradient id="linear-gradient" x1="144.79" y1="76.78" x2="144.19" y2="333.13" gradientUnits="userSpaceOnUse">
       <stop offset=".32" stop-color="#aed138"/>
       <stop offset=".35" stop-color="#bea649"/>

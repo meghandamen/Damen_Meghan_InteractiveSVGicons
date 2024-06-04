@@ -53,6 +53,15 @@
       }
       
     </style>
+    <script>
+      const theIcon = document.querySelector("#peaches-icon");
+
+      function logTheId() {
+        console.log(this.id);
+      }
+
+      theIcon.addEventListner("click", logTheId);
+    </script>
     <linearGradient id="linear-gradient" x1="153.24" y1="295.09" x2="151.73" y2="38.75" gradientUnits="userSpaceOnUse">
       <stop offset=".27" stop-color="#ee2c7b"/>
       <stop offset=".39" stop-color="#f15259"/>

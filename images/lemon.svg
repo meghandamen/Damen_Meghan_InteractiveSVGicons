@@ -87,6 +87,15 @@
       }
 
     </style>
+    <script>
+      const theIcon = document.querySelector("#ll-icon");
+
+      function logTheId() {
+        console.log(this.id);
+      }
+
+      theIcon.addEventListner("click", logTheId);
+    </script>
     <linearGradient id="New_Gradient_Swatch_2" data-name="New Gradient Swatch 2" x1="161.68" y1="295.93" x2="158.94" y2="39.6" gradientUnits="userSpaceOnUse">
       <stop offset=".27" stop-color="#39b54a"/>
       <stop offset=".34" stop-color="#5fc045"/>

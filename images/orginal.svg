@@ -55,6 +55,15 @@
       }
       
     </style>
+    <script>
+      const theIcon = document.querySelector("#og-icon");
+
+      function logTheId() {
+        console.log(this.id);
+      }
+
+      theIcon.addEventListner("click", logTheId);
+    </script>
     <linearGradient id="linear-gradient" x1="142.55" y1="332.1" x2="144.27" y2="-10.18" gradientUnits="userSpaceOnUse">
       <stop offset=".29" stop-color="#ee2c7b"/>
       <stop offset=".35" stop-color="#f16166"/>
