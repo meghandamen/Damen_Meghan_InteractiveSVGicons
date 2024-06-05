@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 318.67 227.14">
+<svg id="lemon" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 318.67 227.14">
   <defs>
     <style>
       .cls-1 {
@@ -88,13 +88,13 @@
 
     </style>
     <script>
-      const theIcon = document.querySelector("#ll-icon");
+      let svg = document.querySelector("#lemon");
 
-      function logTheId() {
+      function logID() {
         console.log(this.id);
       }
 
-      theIcon.addEventListner("click", logTheId);
+      svg.addEventListener("click", logID);
     </script>
     <linearGradient id="New_Gradient_Swatch_2" data-name="New Gradient Swatch 2" x1="161.68" y1="295.93" x2="158.94" y2="39.6" gradientUnits="userSpaceOnUse">
       <stop offset=".27" stop-color="#39b54a"/>
